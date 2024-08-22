@@ -51,11 +51,13 @@ The server will start on http://localhost:5000.
 1. Register or login using the /api/auth/signup or /api/auth/login endpoints.
 2. After successful login, you'll receive a JWT token. Use this token to authenticate further requests by adding it to the Authorization header:
 ```Authorization: Bearer <your_jwt_token>```
+
 3.Use the recipe search endpoint to search for recipes by ingredients.
+
 4.Add or remove recipes from your favorites using the respective endpoints.
 
 ## Postman Documentation
 You can import the provided Postman collection to easily interact with the API:
 
-[Download Postman Collection](https://web.postman.co/workspace/774db83b-64e5-41cc-87ea-5a423a970a5c/documentation/27369418-b04f9c3e-f8b3-44f3-aa60-640e9e9aef15) (Link to your Postman collection if available)
+[Download Postman Collection](https://web.postman.co/workspace/774db83b-64e5-41cc-87ea-5a423a970a5c/documentation/27369418-b04f9c3e-f8b3-44f3-aa60-640e9e9aef15)
 
